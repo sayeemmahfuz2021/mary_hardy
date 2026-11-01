@@ -485,6 +485,7 @@ background: #FFF8F3;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all linear 0.3s;
 
 }
 .fotter_button button a{
