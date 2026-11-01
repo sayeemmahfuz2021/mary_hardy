@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ----hero section css st here---- */
+#nav_hero{
+    padding: 230px 0 ;
+    background-image: url(../images/banner.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ----nav css strat here---- */
+#nav_bar{
+    padding: 50px 0px;
+    /* background: teal; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav_wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu{
+    display: flex;
+    gap: 51px;
+    justify-content: center;
+    align-items: center;
+}
+.nav_menu ul{
+    display: flex;
+    gap:51px ;
+}
+.nav_menu ul a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+    transition: all linear 0.3s;
+}
+.nav_menu ul a:hover{
+    color: #FD6E0A;
+}
+
+.nav_button button{
+    padding: 19px 36px;
+    background-color:transparent; 
+    transition: all linear 0.3s;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    /* outline: none; */
+
+}
+.nav_button button a{
+color: #474747;
+font-weight: 700;
+font-size: 20PX;
+/* transition: all linear 0.3s; */
+}
+.nav_button button:hover{
+background-color: #dd630c;
+}
+.nav_button button:hover .nav_button_hire {
+    color: #FFF8F3;
+
+}
+
+/* .nav_button button a:hover{
+    color:#FFFFFF;
+} */
+/* ----nav css end here---- */
+.banner_wraper{
+    display: flex;
+    position: relative;
+
+}
+.banner_left{
+    margin-top: 82px;
+}
+.banner_left h2{
+    font-weight: 600;
+    font-size: 45px;
+    color:#474747;
+}
+.banner_left h1{
+    font-weight: 700;
+    font-size: 45px;
+    color:#181818;
+}
+.banner_left p{
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color:#757575;
+    width: 585px;
+}
+.banner_button{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.banner_button button{
+    padding: 19px 36px;
+    background-color:transparent;
+    transition: all linear 0.3s;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.banner_button button a{
+    transition: all linear 0.3s;
+    color: #dd630c;
+    font-weight:700 ;
+    font-size: 20px;
+}
+.banner_button button:hover{
+    background-color: #FD6E0A;
+    
+}
+.banner_button button:hover .banner_button_common{
+    color: #FFF8F3;
+    
+}
+
+/* .banner_button button a:hover{
+    color: #FFFFFF;
+} */
+.banner_right{
+    
+    position: relative;
+
+}
+.banner_img_one{
+    position: absolute;
+    top: 22%;
+}
+.banner_hero{
+    position: absolute;
+    top: -22%;
+    left: 64%;
+    /* bottom: 0; */
+
+}
+/* ----hero section css end here---- */
+
+
+
+
+/* ----about me css st here---- */
+
+#aboutPart{
+    margin: 130px 0;
+
+}
+.about{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+}
+.aboutContent{
+    text-align: center;
+}
+.aboutContent h2{
+    margin-bottom: 30px;
+     font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+
+}
+.aboutContent p{
+     font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 800px;
+   margin: 0 auto;
+
+}
+.aboutBio{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+   
+}
+.aboutBio p{
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 20px;
+      line-height: 30px;
+   font-weight: 400;
+
+}
+.aboutBio h5{
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 20px;
+      line-height: 30px;
+   font-weight: 700;
+
+}
+
+/* ----about me css end here---- */
+
+/* ----what i do css start here--- */
+
+#What_I_Do_Part{
+margin: 130px 0;
+}
+.what_i_do_head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.what_i_do_head h2{
+    font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.what_i_do_head p{
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 909px;
+   margin: 0 auto;
+}
+.card_section{
+    display: flex;
+    gap: 24px;
+}
+.one{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.one h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+     font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 20px;
+   font-weight: 700;
+  
+}
+.one p{
+    width: 201px;
+     font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+/* ----what i do css end here---- */
+/* ----Resume section css start here---- */
+#resumePart{
+    margin: 130px 0;
+}
+.resumeHead h2{
+text-align: center;
+   font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+}
+.resumeCareer{
+    margin-top: 113px;
+}
+
+.alpha{
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 30px;
+   font-weight: 700;
+}
+.beta{
+      margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 25px;
+   font-weight: 700;
+}
+.gama{
+      margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 20px;
+   font-weight: 600;
+}
+.pie{
+    width: 450px;
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 16px;
+     line-height: 28px;
+   font-weight: 400;
+}
+
+
+.resumeExp{
+    margin-top: 113px;
+}
+.resumeflex{
+    display: flex;
+    gap: 100px;
+}
+.line{
+    margin: 30px 0;
+    width: 588px;
+    border: 1px solid #D1D1D1 ;
+}
+.button_resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume_btn button{
+    
+    margin-top: 50px;
+    padding: 19px 36px;
+    background-color: #FD6E0A; 
+    transition: all linear 0.3s;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+
+}
+.resume_btn button a{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+.resume_btn button:hover{
+    background-color: transparent;
+
+}
+.resume_btn button:hover .btn{
+    color: #FD6E0A;
+
+}
+
+/* .resume_btn button a:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+} */
+
+/* .resume_btn{
+    display: inline-block;
+
+    padding: 19px 36px;
+    background-color:transparent; 
+    transition: all linear 0.3s;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+} */
+
+/* ----Resume section css end here---- */
+
+
+
+/* ----footer section css start here---- */
+
+#FooterPart{
+padding: 130px 0;
+background: #FFF8F3;
+}
+.footer{
+    display: flex;
+    gap: 117px;
+}
+.footer .left{
+ width: 50%;
+}
+.footer .left h2{
+    color: #181818;  
+    font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.footer .left p{
+    
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+  width: 562px;
+     margin-bottom: 30px;
+}
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.socialicon a{
+    color: #FD6E0A;
+    font-size: 24px;
+}
+.footer .right{
+    width: 50%;
+}
+.footer .right h2{
+   font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.formcommon{
+
+    padding: 18px 0 18px 30px;
+    color: #757575;  
+    font-size: 16px;
+   font-weight: 400;
+}
+/* .fotter_button{
+    margin-top: 24px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: #FD6E0A;
+    
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    transition: all linear 0.3s;
+}
+/* .btnFooter:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+   
+} 
+
+.fotter_button button a{
+     color: #FFFFFF;   
+    font-size: 20px;
+    font-weight: 700;
+
+} */
+
+
+.fotter_button button{
+    margin-top: 24px;
+    padding: 10px 32px;
+    border-radius: 5px;
+    background-color: #dd630c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.fotter_button button a{
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.fotter_button button:hover{
+    background: transparent;
+    border: 1px solid #FD6E0A;
+
+}
+.fotter_button button:hover a{
+    color: #FD6E0A;
+}
+
+/* ----footer section css end here--- */
+
+
+
+
+
+
+/* -=----finally done--- */
